@@ -1,0 +1,55 @@
+﻿# Build artifacts
+/build/output/
+/build/cache/
+/build/tmp/
+/build/logs/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.so.*
+*.ko
+*.mod
+*.mod.c
+*.cmd
+
+# Kernel build files
+*.order
+*.symvers
+Module.symvers
+modules.order
+
+# Disk images and virtual machines
+*.iso
+*.img
+*.qcow2
+*.vdi
+*.vmdk
+
+# Archives
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
